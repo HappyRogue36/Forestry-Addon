@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+
+[[mods]]
+modId="forestryaddon"
+version="${mod_version}" #mandatory
+displayName="ForestryAddon"
+credits=""
+authors="Andaas123"
+description='''
+	ForestryAddon.
+	'''
+
+[[dependencies.forestryaddon]]
+modId="forge"
+mandatory=true
+versionRange="${forge_version_range}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.forestryaddon]]
+modId="patchouli"
+mandatory=true
+versionRange="${patchouliVersionRange}"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.forestryaddon]]
+modId="forestry"
+mandatory=true
+versionRange="${forestryVersionRange}"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.forestryaddon]]
+modId="jei"
+mandatory=false
+versionRange="${jeiVersionRange}"
+ordering="NONE"
+side="CLIENT"
