@@ -23,3 +23,14 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+/bin
+/out
+/build
+/run
+/deps/run
+/.idea
+/eclipse
+/.gradle
+/*.iml
+/*.ipr
